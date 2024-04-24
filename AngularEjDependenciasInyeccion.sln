@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "AngularEjDependenciasInyeccion", "AngularEjDependenciasInyeccion\AngularEjDependenciasInyeccion.esproj", "{1B426602-5BD7-4F00-AEFF-EFCC78D3F92E}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ProyectoCalculadora", "ProyectoCalculadora\ProyectoCalculadora.esproj", "{1CF2B791-03E2-4141-835D-C25E2C38A6A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{1B426602-5BD7-4F00-AEFF-EFCC78D3F92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B426602-5BD7-4F00-AEFF-EFCC78D3F92E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B426602-5BD7-4F00-AEFF-EFCC78D3F92E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1CF2B791-03E2-4141-835D-C25E2C38A6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF2B791-03E2-4141-835D-C25E2C38A6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF2B791-03E2-4141-835D-C25E2C38A6A4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1CF2B791-03E2-4141-835D-C25E2C38A6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF2B791-03E2-4141-835D-C25E2C38A6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF2B791-03E2-4141-835D-C25E2C38A6A4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
