@@ -1,0 +1,13 @@
+
+
+
+<form [formGroup]="figuraForm" class="container bg-primary text-white">
+  <div class="d-flex text-center">
+    <input type="radio" id="figura" value="circulo" (change)="calculoFigura();figuraPlaceHolder();" formControlName="figura"/>
+    <div class="etiqueta">Circulo</div>
+    <input type="radio" id="figura" value="cuadrado" (change)="calculoFigura();figuraPlaceHolder();" formControlName="figura"/>
+    <div class="etiqueta">Cuadrado</div>
+  </div>
+  <input type="text" id="texto" [placeholder]='tipo' formControlName="medicion" (change)="calculoFigura()" />
+  <div id="resultado" class="resultado bg-info text-center"></div>
+</form>
