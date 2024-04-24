@@ -1,7 +1,8 @@
 
 
-<form [formGroup]="nombreForm" class="container jacquarda-bastarda-9-charted-regular">
+<form [formGroup]="nombreForm" class="container jacquarda-bastarda-9-charted-regular text-white p-5">
   <input type="text" id="nombre" palceholder="Nombre" formControlName="nombre" />
-  <div class="btn btn-info text-white text-center">Comprobar</div>
-  <p *ngIf="nombreCorrecto = 'correcto'">{{textCorrecto | uppercase}}</p>
+  <div class="btn btn-info text-center" (click)="comprobarNombre()">Comprobar</div>
+  <p *ngIf="nombreCorrecto == 'correcto'">{{textCorrecto | uppercase}}</p>
+  <p *ngIf="nombreCorrecto == 'incorrecto'">{{textIncorrecto | uppercase}}</p>
 </form>

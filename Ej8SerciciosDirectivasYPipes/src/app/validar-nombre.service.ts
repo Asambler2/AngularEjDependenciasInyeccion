@@ -9,7 +9,7 @@ export class ValidarNombreService {
 
   validarNombre(nombre: string): boolean {
     const pattern = new RegExp('^[A-Z]+$', 'i');
-    if (nombre.length > 3 && nombre.length < 50 && !nombre.indexOf('ñ') && pattern.test(nombre)) {
+    if (nombre.length > 3 && nombre.length < 50 && !nombre.includes('ñ') && pattern.test(nombre)) {
       return true;
     }
     return false;
