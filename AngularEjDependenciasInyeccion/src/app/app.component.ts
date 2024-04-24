@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { HeroService} from './hero.service';
 
 @Component({
@@ -14,5 +14,11 @@ export class AppComponent {
     this.servicio = servicio;
     this.resultado = servicio.sumarCosas(4, 6);
     this.title = 'El resultado es: ' + this.resultado;
+  }
+
+  // Otra forma de hacer la inyección de dependencias:
+  sumar() {
+    let servicio = inject(HeroService);
+    servicio.sumarCosas(4, 4);
   }
 }
