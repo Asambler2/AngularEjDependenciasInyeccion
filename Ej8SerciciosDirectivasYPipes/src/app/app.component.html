@@ -1,0 +1,7 @@
+
+
+<form [formGroup]="nombreForm" class="container jacquarda-bastarda-9-charted-regular">
+  <input type="text" id="nombre" palceholder="Nombre" formControlName="nombre" />
+  <div class="btn btn-info text-white text-center">Comprobar</div>
+  <p *ngIf="nombreCorrecto = 'correcto'">{{textCorrecto | uppercase}}</p>
+</form>
