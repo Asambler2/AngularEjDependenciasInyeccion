@@ -22,10 +22,6 @@ export class AppComponent {
   }
 
   comprobarNombre() {
-    if (this.validador.validarNombre(this.nombreForm.get('nombre')?.value)) {
-      this.nombreCorrecto = 'correcto';
-    } else {
-      this.nombreCorrecto = 'incorrecto';
-    }
+    this.nombreCorrecto = (this.validador.validarNombre(this.nombreForm.get('nombre')?.value)).toString();
   }
 }
